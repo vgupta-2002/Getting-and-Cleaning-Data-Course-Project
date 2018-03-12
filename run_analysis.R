@@ -1,4 +1,4 @@
-# Set the WOrking Directory
+# Set the Working Directory
 setwd("C:/Users/vgupta_2002/Desktop/Personal/Coursera/DataScience/Coursera")
 
 #Training Data
@@ -95,38 +95,3 @@ colnames(completeData) <- columnnames
 meandata <- aggregate(.~subject+activity, completeData, mean)
 
 write.table(meandata, "tidy_data.txt", row.names = FALSE, sep = "\t" ,quote = FALSE)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
